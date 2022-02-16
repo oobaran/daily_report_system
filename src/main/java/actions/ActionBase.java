@@ -232,7 +232,7 @@ public abstract class ActionBase {
      * @param key パラメータ名
      *
      */
-    protected void removeSessioncope(AttributeConst key) {
+    protected void removeSessionScope(AttributeConst key) {
         request.getSession().removeAttribute(key.getValue());
     }
 
